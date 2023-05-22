@@ -174,7 +174,15 @@ myApp.get("/about", function (req, res){
     res.render('about')
 })
 
-myApp.listen(3000, function(){
+const port = process.env.PORT ;
+
+if(port == null|| port==""){
+    port = 3000
+}
+
+
+
+myApp.listen(port, function(){
     console.log("the server has started on the 3000");
 })
 
