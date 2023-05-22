@@ -1,0 +1,2 @@
+show dbs -> to show local and admin name. Main thing show the database
+use {database name}-> it will allow u to go to that database

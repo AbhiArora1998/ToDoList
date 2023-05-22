@@ -20,7 +20,7 @@ myApp.use(bodyParser.urlencoded({extended:true}))
 myApp.use(express.static('public'))
 
 // to connect to the port allocated to mongoose in this os
-mongoose.connect('mongodb://localhost:27017/todolistDB',{useNewUrlParser:true});
+mongoose.connect('mongodb+srv://admin_Abhi:Badminton23@cluster0.hpojfyp.mongodb.net/todolistDB',{useNewUrlParser:true});
 
 
 
